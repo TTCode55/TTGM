@@ -36,7 +36,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     
     AddButton(Tab1o, {
      Name = "Hoho Hub",
-     Description = "Xịn nhưng getkey mệt á!"
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
   end
@@ -44,7 +43,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab2o, {
      Name = "Rubu Hub",
-     Description = "Xịn, chắc vậy chứ chưa thử(^^)"
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
   end
@@ -52,7 +50,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab3o, {
      Name = "QuantumOnyx Hub",
-     Description = "Cũng được á!"
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
@@ -60,7 +57,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab4o, {
      Name = "Min Hub",
-     Description = "Nhỏ nhưng có võ"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinXoV"))()
   end
@@ -68,7 +64,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab5o, {
      Name = "Doraemon Hub",
-     Description = "Hơi mạnh đấy!"
     Callback = function()
           loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
   end
@@ -76,7 +71,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab6o, {
      Name = "DatThg Hub",
-     Description = "Chưa biết"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV3Eng"))()
   end
@@ -84,7 +78,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab7o, {
      Name = "Gravity Hub",
-     Description = "Ngang Redz"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
   end
@@ -92,7 +85,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab8o, {
      Name = "TDT Hub",
-     Description = "Chưa test"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/ThinhNek343/tdthub/refs/heads/main/maintdt.lua"))()
   end
@@ -100,7 +92,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab9o, {
      Name = "Sol Hub",
-     Description = "Không biết luôn"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/SolHub", true))()
   end
@@ -108,7 +99,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab10o, {
      Name = "BlueX Hub",
-     Description = "Tạm"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
   end
@@ -116,7 +106,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab11o, {
      Name = "LS-Zee Hub",
-     Description = "Ngon"
     Callback = function()
           loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
   end
@@ -124,7 +113,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
     AddButton(Tab12o, {
      Name = "Banana Hub",
-     Description = "Cực xịn"
     Callback = function()
           repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "F4hb2akdkGhBb8P34QtRe7K43Fj"
@@ -134,7 +122,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/Obii_HNCRo
 
     AddButton(Tab13o, {
      Name = "Main Hub",
-     Description = "Chắc ngon á"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
   end
@@ -142,7 +129,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/Obii_HNCRo
 
     AddButton(Tab14o, {
      Name = "Quarty Hub",
-     Description = "Chắc ngon á"
     Callback = function()
           loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
   end
@@ -150,10 +136,40 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/Obii_HNCRo
 
     AddButton(Tab15o, {
      Name = "Dum Hub",
-     Description = "Chắc ngon á"
     Callback = function()
           repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = "Dum-Hub-Dz"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/DumHubdz./refs/heads/main/DumHub.lua"))()
+  end
+  })
+
+    AddButton(Tab16o, {
+     Name = "Soul Hub",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/refs/heads/main/soulhub", true))()
+  end
+  })
+
+    AddButton(Tab17o, {
+     Name = "Main Hub V3",
+    Callback = function()
+          
+getgenv().Version = "V3"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+
+  end
+  })
+
+    AddButton(Tab18o, {
+     Name = "Blf Hub",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/kiddohiru/Source/main/BloxFruits.lua"))()
+  end
+  })
+
+    AddButton(Tab19o, {
+     Name = "Mercure Hub",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/DrTxZ/Mercure-Hub/refs/heads/main/Mercure%20Hub.lua"))()
   end
   })
